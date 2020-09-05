@@ -1,13 +1,23 @@
 #cs {
   animation-name: appear;
   animation-duration: 1s;
+  -webkit-animation-name: appear;
 }
 
 #aem {
   animation-name: appear;
   animation-duration: 3s;
+  -webkit-animation-name: appear;
 }
 
+@-webkit-keyframes appear {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
 @keyframes appear {
   from {
     opacity: 0%;
@@ -16,6 +26,7 @@
     opacity: 100%;
   }
 }
+
 @media (max-width: 1200px) {
   .whiteCarryover {
     display: flex;

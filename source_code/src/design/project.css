@@ -1,62 +1,82 @@
 #projectHead {
+  -webkit-animation-name: appear;
   animation-name: appear;
   animation-duration: 1s;
 }
 
 #projectIntro {
   animation-name: appear;
+  -webkit-animation-name: appear;
   animation-duration: 3s;
 }
 
 #challengesHead {
   animation-name: appear;
+  -webkit-animation-name: appear;
   animation-duration: 5s;
 }
 
 #challengesBio {
   animation-name: appear;
+  -webkit-animation-name: appear;
   animation-duration: 7s;
 }
 
 #learningHead {
   animation-name: appear;
+  -webkit-animation-name: appear;
   animation-duration: 9s;
 }
 
 #learningBio {
   animation-name: appear;
+  -webkit-animation-name: appear;
   animation-duration: 11s;
 }
 #goalsHead {
   animation-name: appear;
+  -webkit-animation-name: appear;
   animation-duration: 13s;
 }
 
 #goalsBio {
   animation-name: appear;
+  -webkit-animation-name: appear;
   animation-duration: 15s;
 }
 
 #techHead {
   animation-name: appear;
+  -webkit-animation-name: appear;
   animation-duration: 15.5s;
 }
 
 #techBio {
   animation-name: appear;
+  -webkit-animation-name: appear;
   animation-duration: 16.5s;
 }
 #backButton {
   animation-name: appear;
+  -webkit-animation-name: appear;
   animation-duration: 17s;
 }
 
 #knowButton {
   animation-name: appear;
+  -webkit-animation-name: appear;
   animation-duration: 18s;
 }
-
 @keyframes appear {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@-webkit-keyframes appear {
   from {
     opacity: 0%;
   }

@@ -1,23 +1,35 @@
 #qlearning {
   animation-name: appear;
   animation-duration: 1s;
+  -webkit-animation-name: appear;
 }
 
 #webdev {
   animation-name: appear;
   animation-duration: 3s;
+  -webkit-animation-name: appear;
 }
 
 #deeplearning {
   animation-name: appear;
+  -webkit-animation-name: appear;
   animation-duration: 5s;
 }
 
 #datascience {
   animation-name: appear;
+  -webkit-animation-name: appear;
   animation-duration: 7s;
 }
 
+@-webkit-keyframes appear {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
 @keyframes appear {
   from {
     opacity: 0%;

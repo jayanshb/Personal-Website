@@ -7,7 +7,17 @@
   cursor: pointer;
   text-decoration: none;
   animation-name: logoAppear;
+  -webkit-animation-name: appear;
   animation-duration: 2s;
+}
+
+@-webkit-keyframes logoAppear {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 
 @keyframes logoAppear {
