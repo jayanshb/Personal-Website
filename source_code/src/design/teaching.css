@@ -1,0 +1,24 @@
+#cs {
+  animation-name: appear;
+  animation-duration: 1s;
+}
+
+#aem {
+  animation-name: appear;
+  animation-duration: 3s;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .whiteCarryover {
+    display: flex;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,28 @@
+#qlearning {
+  animation-name: appear;
+  animation-duration: 1s;
+}
+
+#webdev {
+  animation-name: appear;
+  animation-duration: 3s;
+}
+
+#deeplearning {
+  animation-name: appear;
+  animation-duration: 5s;
+}
+
+#datascience {
+  animation-name: appear;
+  animation-duration: 7s;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
