@@ -1,27 +1,3 @@
-#qlearning {
-  animation-name: appear;
-  animation-duration: 1s;
-  -webkit-animation-name: appear;
-}
-
-#webdev {
-  animation-name: appear;
-  animation-duration: 3s;
-  -webkit-animation-name: appear;
-}
-
-#deeplearning {
-  animation-name: appear;
-  -webkit-animation-name: appear;
-  animation-duration: 5s;
-}
-
-#datascience {
-  animation-name: appear;
-  -webkit-animation-name: appear;
-  animation-duration: 7s;
-}
-
 @-webkit-keyframes appear {
   from {
     opacity: 0%;
@@ -37,4 +13,27 @@
   to {
     opacity: 100%;
   }
+}
+#qlearning {
+  -webkit-animation-name: appear 1s;
+  animation-name: appear;
+  animation-duration: 1s;
+}
+
+#webdev {
+  -webkit-animation-name: appear 3s;
+  animation-name: appear;
+  animation-duration: 3s;
+}
+
+#deeplearning {
+  -webkit-animation-name: appear 5s;
+  animation-name: appear;
+  animation-duration: 5s;
+}
+
+#datascience {
+  -webkit-animation-name: appear 7s;
+  animation-name: appear;
+  animation-duration: 7s;
 }

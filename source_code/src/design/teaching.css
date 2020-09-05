@@ -1,15 +1,3 @@
-#cs {
-  animation-name: appear;
-  animation-duration: 1s;
-  -webkit-animation-name: appear;
-}
-
-#aem {
-  animation-name: appear;
-  animation-duration: 3s;
-  -webkit-animation-name: appear;
-}
-
 @-webkit-keyframes appear {
   from {
     opacity: 0%;
@@ -25,6 +13,18 @@
   to {
     opacity: 100%;
   }
+}
+
+#cs {
+  -webkit-animation-name: appear 1s;
+  animation-name: appear;
+  animation-duration: 1s;
+}
+
+#aem {
+  -webkit-animation-name: appear 3s;
+  animation-name: appear;
+  animation-duration: 3s;
 }
 
 @media (max-width: 1200px) {
