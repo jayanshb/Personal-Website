@@ -35,7 +35,7 @@ export default class Projects extends React.Component {
                       positions="Web development"
                       duties="This fully responsive portfolio website was designed using bootstrap and React.js"
                       page="webdev"
-                      link="#"
+                      link="https://github.com/jayanshb/Personal-Website/tree/master/source_code"
                       duration="May 2020"
                     />
                   </div>
