@@ -21,7 +21,7 @@ export default class Home extends React.Component {
               <h2>
                 <b className="short-intro">Short intro</b>
               </h2>
-              <h3>
+              <h2>
                 <span className="short-intro-bio">
                   {" "}
                   I am, currently, a{" "}
@@ -86,7 +86,7 @@ export default class Home extends React.Component {
                   to problems like financial markets, Health care systems,
                   business models, etc.
                 </h3>
-              </h3>
+              </h2>
             </div>
           </div>
         </div>

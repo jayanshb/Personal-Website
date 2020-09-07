@@ -16,8 +16,8 @@
 }
 
 #cs {
-  -webkit-animation-name: appear 1s;
-  animation-name: appear;
+  -webkit-animation: appear 1s;
+  animation: appear;
   animation-duration: 1s;
 }
 
